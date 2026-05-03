@@ -1,0 +1,51 @@
+# Ansible Role for Virtual Machine Manager with Flatpak
+
+<a href="https://alvistack.com" title="AlviStack" target="_blank"><img src="/alvistack.svg" height="75" alt="AlviStack"></a>
+
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-flatpak_virt_manager/master)](https://gitlab.com/alvistack/ansible-role-flatpak_virt_manager/-/pipelines)
+[![GitHub tag](https://img.shields.io/github/tag/alvistack/ansible-role-flatpak_virt_manager.svg)](https://github.com/alvistack/ansible-role-flatpak_virt_manager/tags)
+[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-flatpak_virt_manager.svg)](https://github.com/alvistack/ansible-role-flatpak_virt_manager/blob/master/LICENSE)
+[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.flatpak_virt_manager-blue.svg)](https://galaxy.ansible.com/alvistack/flatpak_virt_manager)
+
+Ansible Role for Virtual Machine Manager with Flatpak.
+
+## Requirements
+
+This role require Ansible community package 4.10 or higher.
+
+This role was designed for:
+
+- Ubuntu 20.04, 22.04, 24.04, 25.10, 26.04
+- AlmaLinux 8, 9, 10
+- openSUSE Leap 15.6, Leap 16.0, Tumbleweed
+- Debian 12, 13, Testing
+- Fedora 42, 43, Rawhide
+- CentOS 7, 8 Stream, 9 Stream, 10 Stream
+- RHEL 7, 8, 9, 10
+
+## Role Variables
+
+[defaults/main.yml](defaults/main.yml)
+
+## Dependencies
+
+[ansible-galaxy-requirements.yml](ansible-galaxy-requirements.yml)
+
+## Example Playbook
+
+[molecule/default/converge.yml](molecule/default/converge.yml)
+
+This role could simply deploy to `localhost` as below:
+
+    molecule converge -s default
+
+## License
+
+- Code released under [Apache License 2.0](LICENSE)
+- Docs released under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+
+## Author Information
+
+- Wong Hoi Sing Edison
+  - <https://twitter.com/hswong3i>
+  - <https://github.com/hswong3i>
